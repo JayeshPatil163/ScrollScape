@@ -1,0 +1,60 @@
+.image-item {
+    position: relative;
+    margin-right: 1.4vw; 
+}
+.image-item img {
+    width: 13.3vw;
+    height: 21.5vw;
+    object-fit:cover;
+    overflow: hidden;
+    transition: transform 0.7s ease; 
+    border-radius: 2.4vw;
+    box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.795);
+}
+.text-bg { 
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(to top, #000000 5%, #ff666600 88%);
+    top: 4.35vw;
+    border-radius: 2.6vw; 
+    padding-left: 0.25vw; 
+    width: 13.05vw;
+    height: 80%;
+    z-index: 2; 
+}
+
+.image-item h2 {  
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    padding-left: 5px;
+    margin-bottom: 4%;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 1.4vw;
+    color: rgb(252, 252, 252);
+}
+.desc {
+    position: absolute;
+    top: 65%;
+}
+.image-item p1 {    
+    padding-left: 5px; 
+    position: relative;
+    color: azure; 
+    font-size: 0.75vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.image-item.slide {
+    transition: transform 0.7s ease;  
+    transform: translateX(-14.69vw);
+}
+.shrink {
+    transition: opacity 0.5s ease;  
+    opacity: 0;  
+  }
